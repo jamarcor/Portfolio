@@ -1,7 +1,7 @@
-header {
-    margin: 0; /* centering */
-    padding: 20px;
+body {
+    background-image: url("images/90.jpeg");
 }
+
 
 .header-content {
     width: 400px;
@@ -11,15 +11,18 @@ header {
 
 img { /*image is huge so I had to scale it down */
     max-width: 300px;
+    border: black;
+    border-radius: 10px; /*keeping things rounded just a smidge */
 }
 
-h1 {
+header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     border: 20px;
-    border-radius: 10px; /*some slight rounding */
-    background-color: rgb(165, 197, 224);
+    border-radius: 150px; /*some slight rounding */
+    background-color: rgb(165, 197, 224); 
+    margin: 0;
 }
 
 h2 {
@@ -29,9 +32,6 @@ h2 {
     padding: 2px;
 } 
 
-main {
- 
-}
 
 article {
     background-color: rgb(165, 197, 224);
@@ -66,5 +66,7 @@ footer {
     margin: 0 auto; /*horizontal aligntment again */
     border: 2px black;
     border-radius: 100px;
+    font-size: small;
 }
+
 
